@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+
+# script_dir is the directory where this script is located
+# BASH_SOURCE[0] is the path to this script similar to argv in JS
+script_dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
+filter=""
+dry="0"
+
+while [[ $# > 0 ]]; do
+    if [[ $1 == "--dry" ]]; then
+        dry="1"
+    else
+        filter="$1"
+    fi
+    shift
+done
+
+log() {
+    if [[ "$dry" == "1" ]]; then
+        echo "[DRY_RUN] $@"
+    else
+        echo "$@"
+    fi
+}
+
+execute() {
+    log "execute: $@"
+    if [[ "$dry" == "1" ]]; then
+        return
+    fi
+    "$@"
+}
+
+log "$script_dir -- $filter"
+
+cd $script_dir
+
+for script in ./runs/*; do
+    # This check works across mac os and linux
+    # find is not avilable on mac os by default
+    if [[ ! -f "$script" || ! -x "$script" ]]; then
+        continue
+    fi
+
+    if [[ -n "$filter" && "$script" != *"$filter"* ]]; then
+        log "Skipping $script due to filter: $filter"
+        continue
+    fi
+
+    log "Running script: $script"
+    execute ./$script
+done

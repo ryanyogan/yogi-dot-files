@@ -1,0 +1,156 @@
+DBG 2025-07-04T12:24:10.773 ?.32576    process_spawn:126: new: pid=32577 exepath=[/usr/local/bin/nvim]
+DBG 2025-07-04T12:24:10.773 ?.32576    rpc_start:98: rpc ch 3 in-stream=0x153015670 out-stream=0x153015820
+DBG 2025-07-04T12:24:10.773 ?.32576    tui_get_stty_erase:2501: stty/termios:erase=
+DBG 2025-07-04T12:24:10.773 ?.32576    tui_tk_ti_getstr:2518: libtermkey:kbs=
+DBG 2025-07-04T12:24:10.773 ?.32576    tui_tk_ti_getstr:2523: libtermkey:kdch1=[3~
+DBG 2025-07-04T12:24:10.773 ?.32576    tui_tk_ti_getstr:2529: libtermkey:kmous=[M
+DBG 2025-07-04T12:24:10.776 ?.32576    log_notify:61: RPC -> 3: [notify]    nvim_ui_attach
+DBG 2025-07-04T12:24:10.782 ?.32577    rpc_start:98: rpc ch 1 in-stream=0x14181dfd0 out-stream=0x14181de20
+INF 2025-07-04T12:24:10.783 nvim.32577.0 set_init_2:595: startup runtimepath/packpath value: /Users/ryogan40/.config/nvim,/etc/xdg/nvim,/Users/ryogan40/.local/share/nvim/site,/usr/local/share/nvim/site,/usr/share/nvim/site,/usr/local/share/nvim/runtime,/usr/local/lib/nvim,/usr/share/nvim/site/after,/usr/local/share/nvim/site/after,/Users/ryogan40/.local/share/nvim/site/after,/etc/xdg/nvim/after,/Users/ryogan40/.config/nvim/after
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 receive_msgpack:257: ch 1: parsing 119 bytes from msgpack Stream: 0x14181de20
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 log_notify:61: RPC <- 1: [notify]    nvim_ui_attach
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 handle_request:388: RPC: scheduled nvim_ui_attach
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 handle_nvim_ui_attach:6116: RPC: ch 1: invoke nvim_ui_attach
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 UI: option_set
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 UI: option_set (+15 times...)
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 UI: set_icon
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 UI: set_title
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 UI: chdir
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 UI: option_set
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 UI: option_set (+4 times...)
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 UI: grid_resize
+DBG 2025-07-04T12:24:10.784 nvim.32577.0 UI: grid_clear
+DBG 2025-07-04T12:24:10.785 nvim.32577.0 UI: update_menu
+INF 2025-07-04T12:24:10.790 nvim.32577.0 emsg_multiline:718: E886: System error while opening ShaDa file /Users/ryogan40/.local/state/nvim/shada/main.shada for reading: permission denied
+DBG 2025-07-04T12:24:10.790 nvim.32577.0 UI: update_menu (+10 times...)
+DBG 2025-07-04T12:24:10.790 nvim.32577.0 UI: default_colors_set
+DBG 2025-07-04T12:24:10.790 nvim.32577.0 UI: raw_line
+INF 2025-07-04T12:24:10.790 nvim.32577.0 emsg_multiline:718: E303: Unable to create directory "/Users/ryogan40/.local/state/nvim/swap" for swap file, recovery impossible: permission denied
+INF 2025-07-04T12:24:10.790 nvim.32577.0 emsg_multiline:718: E303: Unable to open swap file for "run", recovery impossible
+INF 2025-07-04T12:24:10.790 nvim.32577.0 emsg_multiline:718: E886: System error while opening ShaDa file /Users/ryogan40/.local/state/nvim/shada/main.shada for reading: permission denied
+DBG 2025-07-04T12:24:10.793 nvim.32577.0 UI: option_set
+INF 2025-07-04T12:24:10.793 nvim.32577.0 main:659: starting main loop
+DBG 2025-07-04T12:24:10.793 nvim.32577.0 UI: grid_scroll
+DBG 2025-07-04T12:24:10.793 nvim.32577.0 UI: raw_line
+DBG 2025-07-04T12:24:10.793 ?.32576    receive_msgpack:257: ch 3: parsing 3861 bytes from msgpack Stream: 0x153015820
+DBG 2025-07-04T12:24:10.793 nvim.32577.0 UI: raw_line (+7 times...)
+DBG 2025-07-04T12:24:10.793 nvim.32577.0 UI: grid_cursor_goto
+DBG 2025-07-04T12:24:10.793 ?.32576    log_notify:61: RPC -> 3: [notify]    nvim_ui_set_option
+DBG 2025-07-04T12:24:10.793 nvim.32577.0 UI: mode_info_set
+DBG 2025-07-04T12:24:10.793 nvim.32577.0 UI: mode_change
+DBG 2025-07-04T12:24:10.794 nvim.32577.0 UI: mouse_off
+DBG 2025-07-04T12:24:10.794 ?.32576    log_notify:61: RPC -> 3: [notify]    nvim_ui_set_option
+DBG 2025-07-04T12:24:10.794 nvim.32577.0 UI: flush
+DBG 2025-07-04T12:24:10.794 ?.32576    receive_msgpack:257: ch 3: parsing 3104 bytes from msgpack Stream: 0x153015820
+DBG 2025-07-04T12:24:10.794 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:10.794 nvim.32577.0 receive_msgpack:257: ch 1: parsing 54 bytes from msgpack Stream: 0x14181de20
+DBG 2025-07-04T12:24:10.794 nvim.32577.0 log_notify:61: RPC <- 1: [notify]    nvim_ui_set_option
+DBG 2025-07-04T12:24:10.794 nvim.32577.0 handle_request:388: RPC: scheduled nvim_ui_set_option
+DBG 2025-07-04T12:24:10.794 nvim.32577.0 log_notify:61: RPC <- 1: [notify]    nvim_ui_set_option
+DBG 2025-07-04T12:24:10.794 nvim.32577.0 handle_request:388: RPC: scheduled nvim_ui_set_option
+DBG 2025-07-04T12:24:10.808 ?.32576    log_notify:61: RPC -> 3: [notify]    nvim_ui_term_event
+DBG 2025-07-04T12:24:10.808 nvim.32577.0 receive_msgpack:257: ch 1: parsing 60 bytes from msgpack Stream: 0x14181de20
+DBG 2025-07-04T12:24:10.808 nvim.32577.0 log_notify:61: RPC <- 1: [notify]    nvim_ui_term_event
+DBG 2025-07-04T12:24:10.808 nvim.32577.0 handle_request:388: RPC: scheduled nvim_ui_term_event
+DBG 2025-07-04T12:24:11.755 ?.32576    log_notify:61: RPC -> 3: [notify]    nvim_input
+DBG 2025-07-04T12:24:11.756 nvim.32577.0 receive_msgpack:257: ch 1: parsing 22 bytes from msgpack Stream: 0x14181de20
+DBG 2025-07-04T12:24:11.756 nvim.32577.0 log_notify:61: RPC <- 1: [notify]    nvim_input
+DBG 2025-07-04T12:24:11.756 nvim.32577.0 handle_nvim_input:6835: RPC: ch 1: invoke nvim_input
+DBG 2025-07-04T12:24:11.757 nvim.32577.0 may_trigger_safestate:301: SafeState: Start triggering
+DBG 2025-07-04T12:24:11.757 nvim.32577.0 UI: flush (+1 times...)
+DBG 2025-07-04T12:24:11.758 nvim.32577.0 UI: hl_group_set
+DBG 2025-07-04T12:24:11.758 nvim.32577.0 UI: hl_group_set (+61 times...)
+DBG 2025-07-04T12:24:11.758 nvim.32577.0 UI: raw_line
+DBG 2025-07-04T12:24:11.759 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:11.759 nvim.32577.0 UI: raw_line (+35 times...)
+DBG 2025-07-04T12:24:11.759 nvim.32577.0 UI: win_viewport
+DBG 2025-07-04T12:24:11.759 nvim.32577.0 UI: grid_cursor_goto
+DBG 2025-07-04T12:24:11.759 nvim.32577.0 UI: mouse_on
+DBG 2025-07-04T12:24:11.759 nvim.32577.0 UI: flush
+DBG 2025-07-04T12:24:11.759 nvim.32577.0 state_enter:98: input: K_EVENT
+DBG 2025-07-04T12:24:11.759 ?.32576    receive_msgpack:257: ch 3: parsing 1520 bytes from msgpack Stream: 0x153015820
+DBG 2025-07-04T12:24:11.760 nvim.32577.0 handle_nvim_ui_set_option:6323: RPC: ch 1: invoke nvim_ui_set_option
+DBG 2025-07-04T12:24:11.760 nvim.32577.0 handle_nvim_ui_set_option:6323: RPC: ch 1: invoke nvim_ui_set_option
+DBG 2025-07-04T12:24:11.760 nvim.32577.0 handle_nvim_ui_term_event:6511: RPC: ch 1: invoke nvim_ui_term_event
+DBG 2025-07-04T12:24:11.760 nvim.32577.0 may_trigger_safestate:301: SafeState: Start triggering
+DBG 2025-07-04T12:24:11.761 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:11.761 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=1 events_pending=0
+DBG 2025-07-04T12:24:11.785 nvim.32577.0 state_enter:98: input: K_EVENT
+DBG 2025-07-04T12:24:11.785 nvim.32577.0 may_trigger_safestate:301: SafeState: Start triggering
+DBG 2025-07-04T12:24:11.785 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:11.786 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=1 events_pending=0
+DBG 2025-07-04T12:24:12.448 ?.32576    log_notify:61: RPC -> 3: [notify]    nvim_input
+DBG 2025-07-04T12:24:12.448 nvim.32577.0 receive_msgpack:257: ch 1: parsing 16 bytes from msgpack Stream: 0x14181de20
+DBG 2025-07-04T12:24:12.449 nvim.32577.0 log_notify:61: RPC <- 1: [notify]    nvim_input
+DBG 2025-07-04T12:24:12.449 nvim.32577.0 handle_nvim_input:6835: RPC: ch 1: invoke nvim_input
+DBG 2025-07-04T12:24:12.449 nvim.32577.0 state_no_longer_safe:315: SafeState reset: key typed
+DBG 2025-07-04T12:24:12.449 nvim.32577.0 state_enter:98: input: <:>
+DBG 2025-07-04T12:24:12.449 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:12.449 nvim.32577.0 UI: flush (+2 times...)
+DBG 2025-07-04T12:24:12.449 nvim.32577.0 UI: raw_line
+DBG 2025-07-04T12:24:12.449 nvim.32577.0 UI: flush
+DBG 2025-07-04T12:24:12.449 ?.32576    receive_msgpack:257: ch 3: parsing 47 bytes from msgpack Stream: 0x153015820
+DBG 2025-07-04T12:24:12.449 nvim.32577.0 UI: raw_line
+DBG 2025-07-04T12:24:12.450 nvim.32577.0 may_trigger_safestate:301: SafeState: Start triggering
+DBG 2025-07-04T12:24:12.450 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:12.450 nvim.32577.0 UI: raw_line (+1 times...)
+DBG 2025-07-04T12:24:12.450 nvim.32577.0 UI: grid_cursor_goto
+DBG 2025-07-04T12:24:12.450 nvim.32577.0 UI: mode_change
+DBG 2025-07-04T12:24:12.450 nvim.32577.0 UI: mouse_off
+DBG 2025-07-04T12:24:12.451 nvim.32577.0 UI: flush
+DBG 2025-07-04T12:24:12.451 ?.32576    receive_msgpack:257: ch 3: parsing 130 bytes from msgpack Stream: 0x153015820
+DBG 2025-07-04T12:24:12.451 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=1 events_pending=0
+DBG 2025-07-04T12:24:12.640 ?.32576    log_notify:61: RPC -> 3: [notify]    nvim_input
+DBG 2025-07-04T12:24:12.641 nvim.32577.0 receive_msgpack:257: ch 1: parsing 16 bytes from msgpack Stream: 0x14181de20
+DBG 2025-07-04T12:24:12.641 nvim.32577.0 log_notify:61: RPC <- 1: [notify]    nvim_input
+DBG 2025-07-04T12:24:12.641 nvim.32577.0 handle_nvim_input:6835: RPC: ch 1: invoke nvim_input
+DBG 2025-07-04T12:24:12.641 nvim.32577.0 state_no_longer_safe:315: SafeState reset: key typed
+DBG 2025-07-04T12:24:12.642 nvim.32577.0 state_enter:98: input: <q>
+DBG 2025-07-04T12:24:12.642 nvim.32577.0 UI: raw_line
+DBG 2025-07-04T12:24:12.642 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:12.642 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:12.642 nvim.32577.0 may_trigger_safestate:301: SafeState: Start triggering
+DBG 2025-07-04T12:24:12.642 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:12.642 nvim.32577.0 UI: grid_cursor_goto
+DBG 2025-07-04T12:24:12.643 nvim.32577.0 UI: flush
+DBG 2025-07-04T12:24:12.643 ?.32576    receive_msgpack:257: ch 3: parsing 71 bytes from msgpack Stream: 0x153015820
+DBG 2025-07-04T12:24:12.643 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=1 events_pending=0
+DBG 2025-07-04T12:24:12.730 ?.32576    log_notify:61: RPC -> 3: [notify]    nvim_input
+DBG 2025-07-04T12:24:12.731 nvim.32577.0 receive_msgpack:257: ch 1: parsing 22 bytes from msgpack Stream: 0x14181de20
+DBG 2025-07-04T12:24:12.731 nvim.32577.0 log_notify:61: RPC <- 1: [notify]    nvim_input
+DBG 2025-07-04T12:24:12.731 nvim.32577.0 handle_nvim_input:6835: RPC: ch 1: invoke nvim_input
+DBG 2025-07-04T12:24:12.731 nvim.32577.0 state_no_longer_safe:315: SafeState reset: key typed
+DBG 2025-07-04T12:24:12.732 nvim.32577.0 state_enter:98: input: <CR>
+DBG 2025-07-04T12:24:12.732 nvim.32577.0 UI: grid_cursor_goto
+DBG 2025-07-04T12:24:12.732 nvim.32577.0 UI: flush
+DBG 2025-07-04T12:24:12.732 ?.32576    receive_msgpack:257: ch 3: parsing 46 bytes from msgpack Stream: 0x153015820
+INF 2025-07-04T12:24:12.732 nvim.32577.0 emsg_multiline:718: E886: System error while opening ShaDa file /Users/ryogan40/.local/state/nvim/shada/main.shada for reading to merge before writing it: permission denied
+DBG 2025-07-04T12:24:12.732 nvim.32577.0 UI: raw_line
+INF 2025-07-04T12:24:12.732 nvim.32577.0 emsg_multiline:718: E886: Failed to create directory /Users/ryogan40/.local/state/nvim/shada for writing ShaDa file: permission denied
+DBG 2025-07-04T12:24:12.732 nvim.32577.0 UI: grid_scroll
+DBG 2025-07-04T12:24:12.732 nvim.32577.0 UI: raw_line
+DBG 2025-07-04T12:24:12.733 nvim.32577.0 UI: raw_line (+4 times...)
+DBG 2025-07-04T12:24:12.733 nvim.32577.0 UI: grid_cursor_goto
+DBG 2025-07-04T12:24:12.733 nvim.32577.0 UI: mode_change
+DBG 2025-07-04T12:24:12.733 nvim.32577.0 UI: flush
+DBG 2025-07-04T12:24:12.733 nvim.32577.0 inbuf_poll:472: blocking... events_enabled=0 events_pending=0
+DBG 2025-07-04T12:24:12.733 ?.32576    receive_msgpack:257: ch 3: parsing 1120 bytes from msgpack Stream: 0x153015820
+DBG 2025-07-04T12:24:13.766 ?.32576    log_notify:61: RPC -> 3: [notify]    nvim_input
+DBG 2025-07-04T12:24:13.766 nvim.32577.0 receive_msgpack:257: ch 1: parsing 22 bytes from msgpack Stream: 0x14181de20
+DBG 2025-07-04T12:24:13.767 nvim.32577.0 log_notify:61: RPC <- 1: [notify]    nvim_input
+DBG 2025-07-04T12:24:13.767 nvim.32577.0 handle_nvim_input:6835: RPC: ch 1: invoke nvim_input
+DBG 2025-07-04T12:24:13.767 nvim.32577.0 UI: flush (+1 times...)
+DBG 2025-07-04T12:24:13.767 nvim.32577.0 UI: mouse_on
+DBG 2025-07-04T12:24:13.768 nvim.32577.0 UI: flush
+DBG 2025-07-04T12:24:13.768 ?.32576    receive_msgpack:257: ch 3: parsing 35 bytes from msgpack Stream: 0x153015820
+DBG 2025-07-04T12:24:13.768 nvim.32577.0 UI: stop
+DBG 2025-07-04T12:24:13.769 nvim.32577.0 stream_close:106: closing Stream: 0x14181de20
+DBG 2025-07-04T12:24:13.769 nvim.32577.0 stream_close:106: closing Stream: 0x14181dfd0
+DBG 2025-07-04T12:24:13.769 ?.32576    read_cb:118: closing Stream (0x153015820): EOF (end of file)
+INF 2025-07-04T12:24:13.769 nvim.32577.0 os_exit:693: Nvim exit: 0
+DBG 2025-07-04T12:24:13.770 ?.32576    stream_close:106: closing Stream: 0x153015670
+DBG 2025-07-04T12:24:13.770 ?.32576    stream_close:106: closing Stream: 0x153015820
+INF 2025-07-04T12:24:13.770 ?.32576    chan_close_with_error:561: RPC: ch 3 was closed by the client
+INF 2025-07-04T12:24:13.771 ?.32576    on_process_exit:432: exited: pid=32577 status=0 stoptime=0
+DBG 2025-07-04T12:24:13.772 ?.32576    stream_close:106: closing Stream: 0x148030168
+INF 2025-07-04T12:24:13.772 ?.32576    os_exit:693: Nvim exit: 0
