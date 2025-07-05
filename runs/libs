@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 
+echo "Installing fzf..."
 git clone git@github.com:junegunn/fzf.git $HOME/yogi/fzf
 $HOME/yogi/fzf/install
+
+echo "Installing base packages..."
+brew install parallel btop ripgrep fd bat exa jq sed wget curl asdf
