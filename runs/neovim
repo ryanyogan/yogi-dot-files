@@ -6,3 +6,7 @@ brew install cmake gettext lua@5.3
 cd $HOME/yogi/neovim
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install
+
+mv ~/.config/nvim{,.bak}
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
