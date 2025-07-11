@@ -6,3 +6,5 @@ $HOME/yogi/fzf/install
 
 echo "Installing base packages..."
 brew install parallel btop ripgrep fd bat exa jq sed wget curl asdf
+
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
